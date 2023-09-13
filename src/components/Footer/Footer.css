@@ -1,0 +1,65 @@
+.conatiner {
+    background-color: #1e3932;
+    height: 500px;
+
+}
+
+.container1 {
+    background-color: #1e3932;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #c8c2e9;
+
+    
+}
+
+.footerimg {
+    height: 80px;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.socialimg {
+    height: 50px;
+}
+
+.container3 {
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.container4 {
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.container5 {
+  
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container6 {
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container7 {
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
