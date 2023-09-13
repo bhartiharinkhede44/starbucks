@@ -1,0 +1,110 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.d-block {
+  display: block;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+.my-auto {
+  margin: auto 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.border-radius {
+  border-radius: 8px;
+}
+.border {
+  border: 8px solid #ededed;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* small common button  */
+
+.btn-sm-rounded {
+  padding: 6px 18px;
+  font-size: 12px;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px #a3a3a3ad;
+}
+.btn-green {
+  color: #fff;
+  background-color: #00754a;
+}
+
+/* text properties  */
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-decoration-non {
+  text-decoration: none;
+}
+
+/* all same box shadows use for navbar and cards */
+.shadows {
+  box-shadow: #1c1c1c1c 1px 1px 2px;
+
+}
+
+/* all same card background color  */
+.bg-card {
+  background-color: #f9f9f9;;
+}
+
+
+/* green color theme - footer , card  */
+.bg-green {
+  background-color: #1e3932;
+}
