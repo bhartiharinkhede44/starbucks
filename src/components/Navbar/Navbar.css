@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 5rem;
+    padding: 0 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.navbar{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.logo-img{
+height: 3rem;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+}
+.nav-link:link,
+.nav-link:visited{
+    display: inline-block;
+   
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:rgb(95, 94, 94) ;
+    
+
+}
+.nav-list li{
+    list-style: none;
+}
