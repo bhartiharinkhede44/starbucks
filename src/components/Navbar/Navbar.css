@@ -40,3 +40,49 @@ height: 3rem;
 .nav-list li{
     list-style: none;
 }
+.search-box{
+    width: 13rem;
+    height: 2rem;
+    border: 1px solid transparent;
+
+}
+.search-button{
+    border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 0 1rem;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.contact-icon{
+border: 2px solid black;
+height: 2rem;
+width: 2rem;
+border-radius: 50%;
+text-align: center;
+padding-top: 0.2rem;
+}
+.second-header{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 5rem;
+    padding: 0 8rem;
+    justify-content: space-between;
+    
+}
+.second-header p{
+    font-size: 1.5rem;
+    
+}
+.second-header button{
+    padding: 0.5rem 1.5rem;
+   border-radius: 2rem;
+    background-color: transparent;
+    color: white;
+
+}
