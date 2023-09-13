@@ -24,6 +24,8 @@ height: 3rem;
     display: flex;
     align-items: center;
     gap: 3rem;
+    
+   
 
 }
 .nav-link:link,
@@ -36,6 +38,24 @@ height: 3rem;
     color:rgb(95, 94, 94) ;
     
 
+}
+.nav-list li{
+    position: relative;
+}
+ .nav-link:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #6c6969;
+    transition: all 0.5s linear;
+   
+}
+.nav-link:hover:before{
+    width: 100%;
+    
 }
 .nav-list li{
     list-style: none;
@@ -77,8 +97,7 @@ padding-top: 0.2rem;
 }
 .second-header p{
     font-size: 1.5rem;
-    
-}
+    }
 .second-header button{
     padding: 0.5rem 1.5rem;
    border-radius: 2rem;
