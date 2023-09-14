@@ -2,7 +2,6 @@ import React from "react";
 import "./Gift.css";
 import "./../../index.css";
 import HeadImg from "./images/banner_icon_1_feafe78e1b.png";
-import Button from "../../components/Button/Button";
 import HeaderCard from "../../components/HeaderCard/HeaderCard";
 
 function Gift() {
