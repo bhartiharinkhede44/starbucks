@@ -6,6 +6,8 @@ import Order from './views/Order/Order';
 import Pay from './views/Pay/Pay';
 import Store from './views/Store/Store';
 
+
+
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 const router = createBrowserRouter([
     {
@@ -35,6 +37,7 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( <>
  <RouterProvider router={router} />
+ {/* <Footer/> */}
  </>
 );
 

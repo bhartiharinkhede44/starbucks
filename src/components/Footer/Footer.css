@@ -1,0 +1,114 @@
+.conatiner {
+    background-color: #1e3932;
+    height: 500px;
+
+}
+
+.container1 {
+    background-color: #1e3932;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #c8c2e9;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+    
+}
+
+.footerimg {
+    height: 66px;
+    margin: 20px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+.socialimg {
+    margin-top: 12px;
+    height: 28px;
+    margin: 8px;
+}
+
+.socialimg2 {
+    height: 39px;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+.container3 {
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    flex-direction: column;
+  
+
+}
+
+
+.container4 {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.container5 {
+  
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container6 {
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.container7 {
+    
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+.footercontain{
+    margin-top: 22px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.imglogo{
+    margin-bottom: 7px;
+    height: 60px;
+    width: 190px;
+}
+.footerline{
+    border-bottom: 1px solid white;
+    margin-top: 45px;
+   margin-inline:5% ;
+   margin-bottom: 20px;
+}
+.little-contain {
+    color: white;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.6;
+  
+}
+
+.little-text {
+    color: white;
+    margin-left: 48%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.6;
+}
