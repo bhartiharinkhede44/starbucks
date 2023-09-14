@@ -1,16 +1,17 @@
 import './Navbar.css';
 import imglogo from './Navbarimges/starbucks.png';
+import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (<>
         <header className='header '>
             <nav className='navbar'>
                 <img src={imglogo} alt='logo img' className='logo-img'></img>
                 <ul className='nav-list'>
-                    <li><a href='/' className='nav-link'>Home</a></li>
-                    <li><a href='/' className='nav-link'>Gift</a></li>
-                    <li><a href='/' className='nav-link'>Order</a></li>
-                    <li><a href='/' className='nav-link'>pay</a></li>
-                    <li><a href='/' className='nav-link'>Store</a></li>
+                    <li><Link to='/' className='nav-link'>Home</Link></li>
+                    <li><Link to='/Gift' className='nav-link'>Gift</Link></li>
+                    <li><Link to='/Order' className='nav-link'>Order</Link></li>
+                    <li><Link to='/Pay' className='nav-link'>pay</Link></li>
+                    <li><Link to='/Store' className='nav-link'>Store</Link></li>
                 </ul>
             </nav>
             <div className='search-bar'>
