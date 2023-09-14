@@ -45,11 +45,11 @@ export default function Navbar() {
                     <h2>SOCIAL MEDIA</h2>
                     < div className="socialimg">
                         <Link to="https://www.instagram.com/starbucksindia/">
-                        <img src={Instaimg} className="socialimg"></img></Link>
-                       
+                            <img src={Instaimg} className="socialimg"></img></Link>
+
                         <Link to="https://www.facebook.com/starbucksindia"><img src={Facebookimg} className="socialimg"></img></Link>
                         <Link to="https://twitter.com/starbucksindia">
-                        <img src={Twiterimg} className="socialimg2"></img>
+                            <img src={Twiterimg} className="socialimg2"></img>
                         </Link>
 
                     </div>
