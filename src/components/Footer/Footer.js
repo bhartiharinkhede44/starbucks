@@ -24,7 +24,7 @@ export default function Navbar() {
 
                 </div>
                 <div className="container4">
-                    <h2 >Responsibility</h2>
+                    <h2 >Responsibility </h2>
                     <p className="footercontain">Community</p>
                     <p className="footercontain">Ethical Sourcing</p>
                     <p className="footercontain">Environment</p>
@@ -32,7 +32,7 @@ export default function Navbar() {
 
                 </div>
                 <div className="container5">
-                    <h2 >Quick Links</h2>
+                    <h2 >Quick Links </h2>
                     <p className="footercontain">Privacy Policy</p>
                     <p className="footercontain">Delivery</p>
                     <p className="footercontain">Season's Gifting</p>
