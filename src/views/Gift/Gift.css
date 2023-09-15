@@ -18,7 +18,7 @@
 
 .card2 {
   width: 30%;
-   /* background-color: red; 
+  /* background-color: red; 
    height: 200px;  */
 }
 .header-img {
@@ -26,13 +26,24 @@
   width: 100px;
   fit: contain;
 }
-.custom-btn-margin{
-  margin-top: 150px
+.custom-btn-margin {
+  margin-top: 150px;
 }
-.horizontol-bar{
+.horizontol-bar {
   /* height: 65px; */
   color: mid-gray;
-  width: 100%; 
-  padding : 10px 10px;
-  background-color:  #f2f0eb;}
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #f2f0eb;
+}
 
+.Anytime-container {
+  margin: 10px 50px;
+  font-size: 20px;
+}
+
+.horizontal-link-container p {
+  margin: auto 120px;
+  font-size: 18px;
+  cursor: pointer;
+}
