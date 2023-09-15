@@ -12,6 +12,10 @@ import pumpkinimg from './imgesforhomepage/pumpkin.png';
 import imgeof from './imgesforhomepage/background.jpg';
 import Button from '../../components/Button/Button';
 import Recomands from '../../components/Recomands/Recomands';
+import traingle from './imgesforhomepage/traingle.webp';
+import puff from './imgesforhomepage/pff.webp';
+import choclate from './imgesforhomepage/cupcake.webp'
+
 
 
 
@@ -63,10 +67,16 @@ export default function Home(){
      StartPriceTitle={"Starting Price"}
      Price={" ₹ 400.00"}
     />
-{/*  */}
-
-
-    {/*  */}
+{/* british recomaded */}
+<div className='barista-container'>
+  <h2>Brista Recomended</h2>
+<div className='d-flex justify-content-evenly '>
+<Recomands imgesrc={traingle}  nameofcard='Hazelnut traingle' perspan='PER SERVICE (50g)-302 Kcal ' rupees=' ₹876'  /> 
+<Recomands imgesrc={puff}  nameofcard='Buna Chicken puff' perspan='PER SERVICE (50g)-302 Kcal ' rupees=' ₹199'  />
+<Recomands imgesrc={choclate}  nameofcard='Chocolate broweing cup cake ' perspan='PER SERVICE (50g)-302 Kcal ' rupees=' ₹299'  />
+</div>
+</div>
+    {/* british recomanded */}
     {/* linera gradiant footer vala   */}
     <div className='world-of-coffee'>
       <h2 >Learn more about the world of coffee!</h2>
