@@ -29,4 +29,10 @@
 .custom-btn-margin{
   margin-top: 150px
 }
+.horizontol-bar{
+  /* height: 65px; */
+  color: mid-gray;
+  width: 100%; 
+  padding : 10px 10px;
+  background-color:  #f2f0eb;}
 
