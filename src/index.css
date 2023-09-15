@@ -4,6 +4,9 @@ body,
   padding: 0;
   /* width: 100%; */
   background-color: #ffffff00;
+  
+  box-sizing: border-box;
+
 }
 
 .d-block {
