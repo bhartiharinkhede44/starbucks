@@ -1,0 +1,38 @@
+.maincontainer{
+    height: 250px;
+    width: 400px;
+    margin: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
+.conatainer{
+
+    margin: 5px;
+   
+}
+.containcontainer{
+    margin: 2px;
+}
+
+   
+
+
+
+.image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.vegimg{
+    height: 20px;
+    width: 20px;
+}
+
+.lastcontainer{
+    
+    margin-top:100px ;
+}
+.price{
+    margin-left: 95px;
+}
