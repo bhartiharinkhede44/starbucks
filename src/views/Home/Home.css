@@ -1,0 +1,66 @@
+ .heading-for-handcraft h2{
+    margin: 2rem 7rem;
+    
+ }
+ 
+ .handcrafedt-inline{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .handcrafted-img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+
+}
+.para{
+    text-align: center;
+}
+.world-of-coffee{
+padding-bottom: 4rem;
+background-color: #a3a3a3ad;
+margin-bottom: 4rem;
+
+}
+.world-of-coffee h2{
+   margin: 3rem 7rem;
+   padding-top:2rem ;
+   font-weight: bold;
+}
+.custombtn{
+   background-color: white;
+   color: black;
+   
+}
+.backgroudn-img{
+   background:url('./imgesforhomepage/background.jpg');
+   
+   height: 20rem;
+  width: 1400px;
+  background-size: cover;
+  
+  
+  margin-left: 5rem;
+   background-size: cover;
+   
+   border: 2px solid black;
+   border-radius: 1rem;
+   
+}
+.backgroudn-img h1  {
+   margin-top:  11rem;
+   margin-bottom: 1rem;
+   margin-left: 2rem;
+   
+}
+.backgroudn-img p{
+   margin-bottom: 1rem;
+   margin-left: 2rem;
+}
+.backgroudn-img button{
+   margin-left: 2rem;
+}
+
+

@@ -16,6 +16,7 @@ export default function Navbar() {
             </nav>
             <div className='search-bar'>
                 <div className='search-button'><i class="fa-solid fa-magnifying-glass"></i> <input placeholder='Looking for something specific?' className='search-box'></input></div>
+
                 <div className='contact-icon'><i class="fa-regular fa-user"></i></div>
 
             </div>
