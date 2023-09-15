@@ -4,6 +4,16 @@ import "./../../index.css";
 import HeadImg from "./images/banner_icon_1_feafe78e1b.png";
 import HeaderCard from "../../components/HeaderCard/HeaderCard";
 import Navbar from "../../components/Navbar/Navbar";
+import Giftcard from "../../components/Card/Giftcard";
+import GiftcardImg1 from "../../views/Gift/images/giftcard1.png";
+import GiftcardImg2 from "../../views/Gift/images/giftcard2.png";
+import GiftcardImg3 from "../../views/Gift/images/giftcard3.jpg";
+import GiftcardImg4 from "../../views/Gift/images/giftcard4.png";
+import GiftcardImg5 from "../../views/Gift/images/giftcard5.png";
+import GiftcardImg6 from "../../views/Gift/images/giftcard6.png";
+
+
+
 
 function Gift() {
   return (
@@ -27,12 +37,11 @@ function Gift() {
           <div className="horizontal-bar-container d-flex justify-content-evenly">
             <div className="container">
               {" "}
-              <div className=" d-flex  justify-content-center align-items-center text-center p-8">
+              <div className=" d-flex horizontal-link-container p-8">
                 <p>FEATURE</p>
                 <p>ANYTIME</p>
                 <p>CONGRATULATION</p>
                 <p>Thank You</p>
-
               </div>
             </div>
 
@@ -40,6 +49,34 @@ function Gift() {
           </div>
         </div>
       </section>
+
+      <section>
+        <div className="Anytime-container">
+          <h1>Anytime</h1>
+        </div>
+        <hr />
+      </section>
+
+      <section className="d-flex justify-content-evenly mt-22">
+        
+          <Giftcard GiftCardImg={GiftcardImg1}/>
+      
+
+          <Giftcard GiftCardImg={GiftcardImg2} />
+        
+
+          <Giftcard GiftCardImg={GiftcardImg3} />
+      </section>
+      <section className="d-flex justify-content-evenly mt-22">
+        
+        <Giftcard GiftCardImg={GiftcardImg4}/>
+    
+
+        <Giftcard GiftCardImg={GiftcardImg5}/>
+      
+
+        <Giftcard GiftCardImg={GiftcardImg6}/>
+    </section>
     </>
   );
 }

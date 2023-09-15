@@ -2,7 +2,8 @@ body,
 * {
   margin: 0;
   padding: 0;
-  width: 100%;
+  /* width: 100%; */
+  background-color: #ffffff00;
 }
 
 .d-block {
@@ -27,7 +28,7 @@ body,
   border-radius: 8px;
 }
 .border {
-  border: 8px solid #ededed;
+  border: 2px solid #ededed;
 }
 
 .flex-row {
@@ -40,6 +41,7 @@ body,
 .justify-content-evenly {
   justify-content: space-evenly;
 }
+
 
 .justify-content-around {
   justify-content: space-around;
@@ -108,7 +110,7 @@ body,
 
 /* all same box shadows use for navbar and cards */
 .shadows {
-  box-shadow: #1c1c1c1c 1px 1px 2px;
+  box-shadow: #1c1c1c1c 5px 5px 4px;
 
 }
 
