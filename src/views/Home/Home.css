@@ -62,5 +62,16 @@ margin-bottom: 4rem;
 .backgroudn-img button{
    margin-left: 2rem;
 }
+.barista-container{
+   background-color:#a3a3a3ad ;
+   margin-top: 2rem;
+   padding-bottom: 3rem;
+   
+}
+.barista-container h2{
+   margin-left:  7rem;
 
+   padding-top:2rem ;
+   font-weight: bold;
 
+}
