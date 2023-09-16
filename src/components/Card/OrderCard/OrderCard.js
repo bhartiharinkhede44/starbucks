@@ -14,14 +14,14 @@ export default function OrderCard({Coffieimg,Vegimg,NameOfCoffie,Calaries,AboutC
 
                 <div className="containcontainer">
                     <img src={Vegimg} className="vegimg"></img>
-                    <h3>{NameOfCoffie}</h3>
-                    <p> {Calaries}</p>
-                    <p>{AboutCoffie}</p>
+                    <h3 className="highlight">{NameOfCoffie}</h3>
+                    <p className="calaries"> {Calaries}</p>
+                    <p className="about">{AboutCoffie}</p>
                 </div>
             </div>
             <div className="d-flex flex-row lastcontainer">
                 <h3 className="price">{Price}</h3>
-                <Button btnName="Add Item"className="btn"/>
+                <Button btnName="Add Item" className="itembtn"/>
 
             </div>
         </div>

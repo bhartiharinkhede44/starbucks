@@ -23,6 +23,8 @@ export default function Order() {
             'Cold coffee' Calaries='TALL(354 ML) .354 kcal' AboutCoffie='Our signature rich in flavour espresso blended with delicate... ' Price='₹ 362.25' />
         <OrderCard Coffieimg={Coffieimg4} Vegimg={Vegimg} NameOfCoffie=
             'Cold coffee' Calaries='TALL(354 ML) .354 kcal' AboutCoffie='Our signature rich in flavour espresso blended with delicate... ' Price='₹ 362.25' />
+            <OrderCard Coffieimg={Coffieimg4} Vegimg={Vegimg} NameOfCoffie=
+            'Cold coffee' Calaries='TALL(354 ML) .354 kcal' AboutCoffie='Our signature rich in flavour espresso blended with delicate... ' Price='₹ 362.25' />
      </div >
     </>)
 }
