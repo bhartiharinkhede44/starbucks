@@ -1,0 +1,48 @@
+.home-card{
+    width: 400px;;
+    height: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius:  5px;
+    padding: 15px;
+    font-family: SoDoSans_Light,Helvetica,sans-serif!important;
+    box-shadow: 0px 2px 7px 2px rgb(228, 227, 227);
+    
+}
+.bevarage{
+height: 220px;
+    width:100%;
+    /* margin: 10px; */
+    /* border-radius: 50%; */
+
+}
+
+.heading{
+/* text-align: center; */
+font-size: 20px;
+}
+
+.about {
+    font-size: 10px;
+    margin-block:5px ;
+    
+   
+}
+.descript {
+    font-size: 13px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+.prize {
+    /* margin-top: 50px; */
+    /* font-family:bold; */
+    font-weight:bold;
+    font-size: 14px;
+}
+.btn {
+    padding:10px; 
+    width: 100px;
+    margin-left: 52%;
+}
