@@ -96,34 +96,13 @@ export default function Home() {
 
        </div>
 
-        {/*  */}
-        {/* linera gradiant footer vala   */}
-        <div className='world-of-coffee'>
-            <h2 >Learn more about the world of coffee!</h2>
-            <div className='backgroudn-img'>
-                <h1>The Art And Science Of Sampling Coffee</h1>
-                <p>Explore the world of Sampling coffee at Starbucks and uncover the Art and science  
-                      behind creating perfect coffee.</p>
-                <Button btnName="learn more" CustomBtn="custombtn" />
-            </div>
+        
 
-        </div>
+        
+    
+    
 
-        {/* linera gradiant footer vala   */}
-
-        <Footer />
-    </div>
-    </div>
-
-    <HeaderCard HeaderImg={pumpkinimg}
-     HeaderOne={"Guess Whose Back!"} 
-     HeaderTwo={"Pumpkin spice menu"}
-     Description={
-       "prepaire to rekindle autumn memories with the much-awaited return of the beloved pumpkin spice menu."
-     }
-     StartPriceTitle={"Starting Price"}
-     Price={" ₹ 400.00"}
-    />
+   
 {/* british recomaded */}
 <div className='barista-container'>
   <h2>Brista Recomended</h2>
