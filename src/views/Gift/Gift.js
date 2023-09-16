@@ -11,6 +11,7 @@ import GiftcardImg3 from "../../views/Gift/images/giftcard3.jpg";
 import GiftcardImg4 from "../../views/Gift/images/giftcard4.png";
 import GiftcardImg5 from "../../views/Gift/images/giftcard5.png";
 import GiftcardImg6 from "../../views/Gift/images/giftcard6.png";
+import Footer from "./../../components/Footer/Footer"
 
 function Gift() {
   return (
@@ -68,6 +69,10 @@ function Gift() {
         <Giftcard GiftCardImg={GiftcardImg5} />
 
         <Giftcard GiftCardImg={GiftcardImg6} />
+      </section>
+
+      <section className="mt-22">
+        <Footer/>
       </section>
     </>
   );
