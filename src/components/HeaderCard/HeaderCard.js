@@ -3,11 +3,11 @@ import Button from '../Button/Button'
 import './../../index.css'
 import './../Card/Card.css'
 
-export default function HeaderCard({HeaderImg , HeaderOne, HeaderTwo, Description, StartPriceTitle, Price}){
+export default function HeaderCard({HeaderImg , HeaderOne, HeaderTwo, Description, StartPriceTitle, Price,bgClass}){
     return(
         <>
 
-<div className="gift-card-header-container bg-green ">
+<div className={`gift-card-header-container  ${bgClass}`}>
           <div className="gift-card-container border-radius">
             <div className="container d-flex align-items-center">
               <div className="card1">
