@@ -12,9 +12,6 @@ import GiftcardImg4 from "../../views/Gift/images/giftcard4.png";
 import GiftcardImg5 from "../../views/Gift/images/giftcard5.png";
 import GiftcardImg6 from "../../views/Gift/images/giftcard6.png";
 
-
-
-
 function Gift() {
   return (
     <>
@@ -30,6 +27,7 @@ function Gift() {
         }
         StartPriceTitle={"Starting Price"}
         Price={" ₹ 650"}
+        bgClass={"bg-green"}
       />
 
       <section>
@@ -58,25 +56,19 @@ function Gift() {
       </section>
 
       <section className="d-flex justify-content-evenly mt-22">
-        
-          <Giftcard GiftCardImg={GiftcardImg1}/>
-      
+        <Giftcard GiftCardImg={GiftcardImg1} />
 
-          <Giftcard GiftCardImg={GiftcardImg2} />
-        
+        <Giftcard GiftCardImg={GiftcardImg2} />
 
-          <Giftcard GiftCardImg={GiftcardImg3} />
+        <Giftcard GiftCardImg={GiftcardImg3} />
       </section>
       <section className="d-flex justify-content-evenly mt-22">
-        
-        <Giftcard GiftCardImg={GiftcardImg4}/>
-    
+        <Giftcard GiftCardImg={GiftcardImg4} />
 
-        <Giftcard GiftCardImg={GiftcardImg5}/>
-      
+        <Giftcard GiftCardImg={GiftcardImg5} />
 
-        <Giftcard GiftCardImg={GiftcardImg6}/>
-    </section>
+        <Giftcard GiftCardImg={GiftcardImg6} />
+      </section>
     </>
   );
 }
