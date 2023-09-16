@@ -1,34 +1,26 @@
-.giftcard-container{
-    height:160px;
-    width : 400px;
-    background-color:#ffffff00 ;    
-       /* background-color:red ; */
-       padding:10px;
-
-        
+.giftcard-container {
+  height: 160px;
+  width: 400px;
+  background-color: #ffffff00;
+  /* background-color:red ; */
+  padding: 10px;
 }
-.gift-card-img{
-    height:100px;
-    
+.gift-card-img {
+  height: 100px;
 }
-.card1{
-    width:50%;
-
+.card1 {
+  width: 50%;
 }
-.card2{
-    width:50%;
-
+.card2 {
+  width: 50%;
 }
-.card2 h5{
-    margin-top:10px;
-    font-size:18px;
-
+.card2 h5 {
+  margin-top: 10px;
+  font-size: 18px;
 }
-.card2 p{
-    margin-top: 10px
-
+.card2 p {
+  margin-top: 10px;
 }
-.btn{
-    margin-top: 10px;
+.order-btn {
+  margin-top: 10px;
 }
-
