@@ -10,7 +10,7 @@ export default function Recomands({ imgesrc, nameofcard, perspan, rupees }) {
             <div className='inside-british-card d-flex  '>
                 <img src={imgesrc} className='british-img' ></img>
                 <div className='second-divsion'>  <img src={vegimg}></img>
-                    <p>{nameofcard}</p>
+                    <h4>{nameofcard}</h4>
                     <span>{perspan}</span>
                 </div>
             </div>

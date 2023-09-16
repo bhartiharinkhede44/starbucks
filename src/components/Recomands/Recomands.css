@@ -22,7 +22,9 @@
 .second-divsion{
     margin-left: 1rem;
 }
-
+.second-divsion span{
+    font-size: 0.6rem;
+}
 .british-img{
     height: 5.5rem;
     width: 5rem;
