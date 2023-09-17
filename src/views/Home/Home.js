@@ -18,6 +18,10 @@ import HomeCard from './../../components/HomeCard/indexHome';
 import img1 from './../../components/HomeCard/bevarage01.png';
 import img2 from './../../components/HomeCard/bevarage02.png';
 import img3 from './../../components/HomeCard/bevarage03.png';
+import traingle from './imgesforhomepage/traingle.webp';
+import puff from './imgesforhomepage/pff.webp';
+import choclate from './imgesforhomepage/cupcake.webp'
+
 
 
 
@@ -92,21 +96,37 @@ export default function Home() {
 
        </div>
 
-        {/*  */}
-        {/* linera gradiant footer vala   */}
-        <div className='world-of-coffee'>
-            <h2 >Learn more about the world of coffee!</h2>
-            <div className='backgroudn-img'>
-                <h1>The Art And Science Of Sampling Coffee</h1>
-                <p>Explore the world of Sampling coffee at Starbucks and uncover the Art and science  
-                      behind creating perfect coffee.</p>
-                <Button btnName="learn more" CustomBtn="custombtn" />
-            </div>
+        
 
-        </div>
-        {/* linera gradiant footer vala   */}
+        
+    
+    
 
-        <Footer />
+   
+{/* british recomaded */}
+<div className='barista-container'>
+  <h2>Brista Recomended</h2>
+<div className='d-flex justify-content-evenly '>
+<Recomands imgesrc={traingle}  nameofcard='Hazelnut traingle' perspan='PER SERVICE (50g)-302 Kcal ' rupees=' ₹876'  /> 
+<Recomands imgesrc={puff}  nameofcard='Buna Chicken puff' perspan='PER SERVICE (50g)-302 Kcal ' rupees=' ₹199'  />
+<Recomands imgesrc={choclate}  nameofcard='Chocolate broweing cup cake ' perspan='PER SERVICE (50g)-302 Kcal ' rupees=' ₹299'  />
+</div>
+</div>
+    {/* british recomanded */}
+    {/* linera gradiant footer vala   */}
+    <div className='world-of-coffee'>
+      <h2 >Learn more about the world of coffee!</h2>
+      <div className='backgroudn-img'>
+        <h1>The Art And Science Of Sampling Coffee</h1>
+        <p>Explore the world of Sampling coffee at Starbucks and uncover the Art and science  behind creating perfect coffee.</p>
+        <Button btnName="learn more" CustomBtn="custombtn"/>
+      </div>
+    
+    </div>
+    {/* linera gradiant footer vala   */}
+
+    <Footer/>
+
 
     </>)
 }  

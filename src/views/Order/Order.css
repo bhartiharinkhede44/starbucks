@@ -1,0 +1,9 @@
+.footercontainer{
+    margin-top: 10px;
+}
+/* @media screen and (max-width:360px) { */
+    .conatiner{
+        display: flex;  
+        flex-wrap: wrap;
+    }
+/* } */
