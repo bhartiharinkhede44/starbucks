@@ -52,3 +52,19 @@ button:hover {
    margin-bottom: 10px;
    font-size: 38px;
 }
+
+@media screen and (max-width: 1000px) {
+    .mainCard {
+        padding: 70px;
+    }
+    .payHeading {
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    input {
+        width: 100%;
+    }
+    img {
+        height: 60px;
+    }
+}
