@@ -12,21 +12,21 @@ export default function Pay() {
         <div className='mainCard'>
             <h1 className='payHeading'>Payment </h1>
             <div className='imgBlock'>
-                <img src={img01}></img>
-                <img src={img02}></img>
-                <img src={img03}></img>
-                <img src={img04}></img>
+                <img src={img01} className='imgcard'></img>
+                <img src={img02}  className='imgcard'></img>
+                <img src={img03}  className='imgcard'></img>
+                <img src={img04}  className='imgcard'></img>
             </div>
 
             <p className='label'> Name On Card :</p> 
-            <input type='text'></input> <br></br>
-            <p className='label'>  Card Number : </p> 
-            <input type='text'></input> <br></br>
+            <input type='text' className='inputbox'></input> <br></br>
+            <p className='label' >  Card Number : </p> 
+            <input type='text' className='inputbox'></input> <br></br>
             <p className='label'>Expiry Date : </p>
-            <input type='date'></input> <br></br>
+            <input type='date' className='inputbox'></input> <br></br>
             <p className='label'>  ZIP/ Postal Code:</p> 
-            <input type='text'></input> <br></br>
-            <button>Pay</button>
+            <input type='text' className='inputbox'></input> <br></br>
+            <button className='paybtn'>Pay</button>
 
         </div>
     </>)
