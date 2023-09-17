@@ -8,7 +8,7 @@ function HomeCard({title, description , about, img , prize}) {
           <p className='about'>{about}</p>
           <p className='descript'>{description}</p>
           <span className='prize'> {prize} </span>
-          <Button btnName="Add Item" CustomBtn="btn" />
+          <Button btnName="Add Item" CustomBtn="btn01" />
         
       </div>
     )

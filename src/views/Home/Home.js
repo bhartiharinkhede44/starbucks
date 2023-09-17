@@ -81,7 +81,7 @@ export default function Home() {
              nutmeg and... " prize="414.75/-" />
 
 
-           <HomeCard img={img3} title="Pumpkin spice latte" about="TALL(Tall Pumpkin Spice Frappuccino).370 kcal "
+           <HomeCard img={img3} title="Pumpkin spice latte" about="TALL(Tall Spice Frappuccino).370 kcal "
             description="Our signarture espresso 
             and steamed milk with the celebrated flavour combination of pumpkin , cinnamon , 
              nutmeg and... " prize="414.75/-" />
